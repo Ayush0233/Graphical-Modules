@@ -1,0 +1,251 @@
+*{
+           margin: 0;
+           padding:0;
+        }
+        
+        .base{
+            width:910px;
+            height:350px;
+            border:2px solid #000;
+            margin:auto;
+            margin-top:0px;
+            display:flex;
+            
+        }
+        .dombs{
+            display:flex;
+            margin-left:10px;
+          
+        }
+        .domb1{
+            width: 100px;
+            height: 100px;
+            border:1px solid #000;
+            margin-left:485px;
+            margin-top:1100px;
+            border-top-right-radius:50%;
+            border-top-left-radius:50%;
+            
+        }
+        .domb2{
+            width: 300px;
+            height: 250px;
+            border:1px solid #000;
+            margin-left:10px;
+            margin-top:950px;
+            z-index:12;
+            
+            border-top:1px solid #000;
+            border-top-right-radius:90%;
+            border-top-left-radius:90%;
+            border-bottom-left-radius:10%;
+            ; border-bottom-right-radius:10%;
+        }
+        .domb3{
+            width: 100px;
+            height: 100px;
+            border:1px solid #000;
+            margin-left:10px;
+            margin-top:1100px;
+            
+            border-top-right-radius:50%;
+            border-top-left-radius:50%;
+            
+        }
+        .door-line-left{
+            width:2px;
+            height: 470px;
+            border:5px solid #000;
+            margin-left:-37px;
+            margin:auto;
+            margin-top:-125px;
+            border-top-right-radius:40%;
+            border-top-left-radius:40%;
+        }
+        .door-line-right{
+            width:2px;
+            height: 470px;
+            border:5px solid #000;
+            margin-right:-28px;
+           margin: auto;
+            margin-top:-125px;
+            border-top-right-radius:40%;
+            border-top-left-radius:40%;
+        }
+        
+        .line-top{
+            width: 0;
+            height: 60px;
+            border:3px solid #000;
+            margin: auto;
+            Margin-top:-67px;
+            border-top-right-radius:40%;
+            border-top-left-radius:40%;
+            
+        }
+        .line-side{
+            width: 0;
+            height: 40px;
+            border:2px solid #000;
+            margin:auto;
+            Margin-top:-45px;
+            border-top-right-radius:40%;
+            border-top-left-radius:40%;
+         }
+            
+        .door{
+            width:200px;
+            height:300px;
+            border:1px solid #000;
+            margin:auto;
+            margin-top:50px;
+            border-top-right-radius:100%;
+            border-top-left-radius:100%;
+        }
+        .windows-door-right{
+            width:70px;
+            height: 100px;
+           
+            margin-left:25px;
+            margin-top:30px;
+            margin-right:40px;
+            
+            
+        }
+        .windows-door-left{
+            width:70px;
+            height: 100px;
+           
+            margin-left:25px;
+            margin-top:30px;
+            margin-right:40px;
+            
+            
+        }
+        
+       .line-left{
+            width:0px;
+            height: 345px;
+            border:3px solid #000;
+            margin-left:-4px;
+            
+            
+        }
+        .line-right{
+            width:0px;
+            height: 345px;
+            border:3px solid #000;
+            margin-right:20px;
+         
+            
+            
+        }
+       
+        
+        
+         .windows-rotate1{
+          
+          
+            margin-left:40px;
+            margin-top:30px;
+            margin-right:50px;
+            
+            
+        }
+        .windows-rotate2{
+          
+          
+            margin-left:20px;
+            margin-top:30px;
+            margin-right:50px;
+            
+            
+        }
+        
+        .win1{
+            width:70px;
+            height: 100px;
+            border:1px solid #000;
+            margin-top:20px;
+            border-top-right-radius:100%;
+            border-top-left-radius:100%;
+        }
+        .win2{
+            width:70px;
+            height: 100px;
+            border:1px solid #000;
+            margin-top:30px;
+            border-top-right-radius:100%;
+            border-top-left-radius:100%;
+            
+        }
+        .win1-rotate{
+            width:40px;
+            height: 100px;
+            border:1px solid #000;
+            margin-top:20px;
+            border-top-right-radius:100%;
+            border-top-left-radius:100%;
+        }
+        .win2-rotate{
+            width:40px;
+            height: 100px;
+            border:1px solid #000;
+            margin-top:30px;
+            
+            border-top-right-radius:100%;
+            border-top-left-radius:100%;
+            
+        }
+        .kalash{
+            width: 340px;
+            height:500px;
+            border:1px solid #000;
+            border-top-right-radius:90%;
+            border-top-left-radius:88%;
+           border-bottom-right-radius:90%;
+            border-bottom-left-radius:90%;
+            border-bottom:1px solid transparent;
+            border-left:1px solid transparent;
+            border-right:1px solid transparent;
+            z-index:10;
+            margin-left:-20px;
+            margin-top:-19px;
+            
+        }
+          .kalash1{
+            width: 60px;
+            height:70px;
+            border:1px solid #000;
+            border-top-right-radius:90%;
+            border-top-left-radius:90%;
+           border-bottom:1px solid transparent;
+           border-left:1px solid transparent;
+            border-right:1px solid transparent; border-bottom-right-radius:-10%;
+            border-bottom-left-radius:-50px;
+            margin:auto;
+            margin-top:-7px;
+        }
+          .kalash2{
+            width: 60px;
+            height:70px;
+            border:1px solid #000;
+            border-top-right-radius:90%;
+            border-top-left-radius:90%;
+            border-bottom:1px solid transparent;
+            border-left:1px solid transparent;
+            border-right:1px solid transparent;
+            margin:auto;
+            margin-top:-7px;
+        }
+        
+     /*   .spike-1{
+            width: 0;
+            height: 60px;
+            border:2px solid #000;
+            margin-left:30px;
+            margin-top:1100px;
+        }
+        */
+        
+        /* box-shadow:-10px -10px 90px #ff0a00; 𝐆𝐢𝐭𝐭𝐮*/
